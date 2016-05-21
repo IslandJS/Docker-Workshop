@@ -4,3 +4,6 @@ services:
     build: .
     volumes:
       - ./projects:/home/nodeschool/projects
+    tty: true
+    stdin_open: true
+    command: "/bin/bash"
