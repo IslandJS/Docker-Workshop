@@ -1,0 +1,6 @@
+version: '2'
+services:
+  nodeschool:
+    build: .
+    volumes:
+      - ./projects:/home/nodeschool/projects
