@@ -7,3 +7,5 @@ services:
     tty: true
     stdin_open: true
     command: "/bin/bash"
+    ports: 
+      - "3000:3000"
